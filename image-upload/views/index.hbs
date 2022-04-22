@@ -1,0 +1,8 @@
+<h1>All Movies 🚀</h1>
+{{#each movies}}
+	<h2>{{title}}</h2>
+	<h4>{{description}}</h4>
+	<img src="{{imgPath}}" alt="Poster for {{title}}" height="200px">
+{{else}}
+	<h2>There are no movies yet 🙀</h2>
+{{/each}}
